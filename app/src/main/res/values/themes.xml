@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.SimpleMVVMCompose" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_baseline_account_circle_24</item>
+        <item name="windowSplashScreenBackground">@color/teal_700</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="splashScreenIconSize">80dp</item>
+        <item name="postSplashScreenTheme">@style/Theme.SimpleMVVMCompose</item>
     </style>
 </resources>
