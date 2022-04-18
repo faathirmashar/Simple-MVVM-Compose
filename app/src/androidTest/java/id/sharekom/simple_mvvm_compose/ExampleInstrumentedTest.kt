@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("id.sharekom.githubuserapp_compose", appContext.packageName)
+        assertEquals("id.sharekom.simple_mvvm_compose", appContext.packageName)
     }
 }
